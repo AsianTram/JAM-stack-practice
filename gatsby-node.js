@@ -38,6 +38,7 @@ exports.createSchemaCustomization = ({ actions }) => {
       social: Social
       services: [Service]
       teamMember: [TeamMember]
+      projects: [Project]
     }`,
     `type TeamMember {
       social: Social
@@ -55,6 +56,16 @@ exports.createSchemaCustomization = ({ actions }) => {
       linkedin: String
       medium: String
       github: String
+    }
+    `,
+    `
+    type Project {
+        content
+        extraInfo
+        header
+        subheader
+        imageFileNameDetail
+        imageFileName
     }
     `,
   ];
