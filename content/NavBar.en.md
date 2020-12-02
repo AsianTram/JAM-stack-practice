@@ -1,4 +1,4 @@
 ---
-brand: "Start Bootstrap"
+brand: "Tram Nguyen"
 menuText: "Menu "
 ---
