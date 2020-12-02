@@ -3,16 +3,16 @@ import PropTypes from "prop-types";
 
 import { Row, Col } from "react-bootstrap";
 
-import ServiceItem from "components/ServiceItem";
+import SkillItem from "components/SkillItem";
 import SectionHeader from "components/SectionHeader";
 import PageSection from "components/PageSection";
 
-const Services = ({ className, frontmatter }) => {
+const Skills = ({ className, frontmatter }) => {
   if (!frontmatter) {
     return null;
   }
 
-  const { anchor, header: rootHeader, subheader: rootSubHeader, services } = frontmatter;
+  const { anchor, header: rootHeader, subheader: rootSubHeader, skills } = frontmatter;
 
   return (
     <PageSection className={className} id={anchor}>
@@ -20,9 +20,9 @@ const Services = ({ className, frontmatter }) => {
         <SectionHeader header={rootHeader} subheader={rootSubHeader} />
       </Row>
       <Row className="text-center">
-        {services.map((service) => (
-          <Col md={4} key={service.header}>
-            <ServiceItem {...service} />
+        {skills.map((skill) => (
+          <Col md={4} key={skill.header}>
+            <SkillItem {...skill} />
           </Col>
         ))}
       </Row>
@@ -30,14 +30,14 @@ const Services = ({ className, frontmatter }) => {
   );
 };
 
-Services.propTypes = {
+Skills.propTypes = {
   className: PropTypes.string,
   frontmatter: PropTypes.object,
 };
 
-Services.defaultProps = {
+Skills.defaultProps = {
   className: null,
   frontmatter: null,
 };
 
-export default Services;
+export default Skills;

@@ -36,14 +36,18 @@ exports.createSchemaCustomization = ({ actions }) => {
       jumpToAnchor: String
       jumpToAnchorText: String
       social: Social
-      services: [Service]
-      teamMember: [TeamMember]
-      projects: [Project]
+      skills: [Skill]
+      companies: [Company]
+      projects: [Project],
+      timeline: [Timeline]
     }`,
-    `type TeamMember {
+    `type Company {
+      header: String
+      subheader: String
+      imageFileName: String
       social: Social
     }`,
-    `type Service {
+    `type Skill {
       iconName: String
       imageFileName: String
       header: String
@@ -60,14 +64,23 @@ exports.createSchemaCustomization = ({ actions }) => {
     `,
     `
     type Project {
-        content
-        extraInfo
-        header
-        subheader
-        imageFileNameDetail
-        imageFileName
+        content: String
+        extraInfo: [String]
+        header: String
+        subheader: String
+        imageFileNameDetail: String
+        imageFileName: String
     }
     `,
+    `
+    type Timeline {
+      content: String
+      header: String
+      imageContent: String
+      imageFileName: String
+      subheader: String
+    }
+    `
   ];
 
   createTypes(typeDefs);

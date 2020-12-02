@@ -1,8 +1,8 @@
 ---
-anchor: "Services"
-header: "Services"
+anchor: "Skills"
+header: "Skills"
 subheader: "Lorem ipsum dolor sit amet consectetur."
-services: [
+skills: [
   {
     iconName: "ShoppingCartIcon",
     header: "E-Commerce",

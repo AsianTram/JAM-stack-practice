@@ -4,9 +4,9 @@ import PropTypes from "prop-types";
 import Image from "components/Image";
 import * as SocialIcons from "components/SocialIcons";
 
-import "./TeamMember.scss";
+import "./CompanyItem.scss";
 
-const TeamMember = ({
+const CompanyItem = ({
   imageFileName,
   imageAlt,
   header,
@@ -20,7 +20,7 @@ const TeamMember = ({
   const mediumPart = medium ? <SocialIcons.Medium userName={medium} /> : null;
 
   return (
-    <div className="team-member">
+    <div className="company-item">
       <Image
         className="mx-auto circle rounded-circle"
         fileName={imageFileName}
@@ -39,7 +39,7 @@ const TeamMember = ({
   );
 };
 
-TeamMember.propTypes = {
+CompanyItem.propTypes = {
   imageFileName: PropTypes.string.isRequired,
   imageAlt: PropTypes.string,
   header: PropTypes.string,
@@ -53,7 +53,7 @@ TeamMember.propTypes = {
   }),
 };
 
-TeamMember.defaultProps = {
+CompanyItem.defaultProps = {
   imageAlt: null,
   header: "",
   subheader: "",
@@ -66,4 +66,4 @@ TeamMember.defaultProps = {
   },
 };
 
-export default TeamMember;
+export default CompanyItem;

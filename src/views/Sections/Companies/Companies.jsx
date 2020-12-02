@@ -2,12 +2,12 @@ import React from "react";
 import PropTypes from "prop-types";
 
 import { Row, Col } from "react-bootstrap";
-import TeamMember from "components/TeamMember";
+import CompanyItem from "components/CompanyItem";
 import SectionHeader from "components/SectionHeader";
 import PageSection from "components/PageSection";
-import "./Team.scss";
+import "./Companies.scss";
 
-const Team = ({ className, frontmatter }) => {
+const Companies = ({ className, frontmatter }) => {
   if (!frontmatter) {
     return null;
   }
@@ -17,7 +17,7 @@ const Team = ({ className, frontmatter }) => {
     header: rootHeader,
     subheader: rootSubHeader,
     content: rootContent,
-    teamMember,
+    companies,
   } = frontmatter;
 
   return (
@@ -26,9 +26,9 @@ const Team = ({ className, frontmatter }) => {
         <SectionHeader header={rootHeader} subheader={rootSubHeader} />
       </Row>
       <Row>
-        {teamMember.map(({ header, ...tmProps }) => (
+        {companies.map(({ header, ...tmProps }) => (
           <Col sm={4} key={header}>
-            <TeamMember header={header} {...tmProps} />
+            <CompanyItem header={header} {...tmProps} />
           </Col>
         ))}
       </Row>
@@ -41,14 +41,14 @@ const Team = ({ className, frontmatter }) => {
   );
 };
 
-Team.propTypes = {
+Companies.propTypes = {
   className: PropTypes.string,
   frontmatter: PropTypes.object,
 };
 
-Team.defaultProps = {
+Companies.defaultProps = {
   className: null,
   frontmatter: null,
 };
 
-export default Team;
+export default Companies;

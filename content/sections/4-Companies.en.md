@@ -1,9 +1,9 @@
 ---
-anchor: "Team"
-header: "Our Amazing Team"
-subheader: "Lorem ipsum dolor sit amet consectetur."
+anchor: "Companies"
+header: "Companies"
+subheader: "My Working Experience"
 content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
-teamMember: [
+companies: [
   {
     imageFileName: "team/1.jpg",
     header: "Kay Garland",
