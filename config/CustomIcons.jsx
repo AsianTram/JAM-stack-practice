@@ -1,7 +1,12 @@
 import makeFAIcon from "utils/makeFAIcon";
 
-import { faShoppingCart, faLaptop, faLock } from "@fortawesome/free-solid-svg-icons";
+import { faCode, faLaptop, faCogs, faPalette, faDatabase, faLanguage } from "@fortawesome/free-solid-svg-icons";
 
-export const ShoppingCartIcon = makeFAIcon(faShoppingCart);
-export const LaptopIcon = makeFAIcon(faLaptop);
-export const LockIcon = makeFAIcon(faLock);
+export const BackEndIcon = makeFAIcon(faCode);
+export const FrontEndIcon = makeFAIcon(faLaptop);
+export const DevOpsIcon = makeFAIcon(faCogs);
+export const DatabaseIcon = makeFAIcon(faDatabase);
+export const UIIcon = makeFAIcon(faPalette);
+export const LangIcon = makeFAIcon(faLanguage);
+
+

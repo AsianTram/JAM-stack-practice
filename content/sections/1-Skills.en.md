@@ -4,19 +4,34 @@ header: "Skills"
 subheader: "Lorem ipsum dolor sit amet consectetur."
 skills: [
   {
-    iconName: "ShoppingCartIcon",
-    header: "E-Commerce",
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+    iconName: "FrontEndIcon",
+    header: "Front-end",
+    content: "Bootstrap, CSS, HTML, JavaScript, Material-UI, React.js, Redux, SASS, TypeScript, VueJS"
   },
   {
-    iconName: "LaptopIcon",
-    header: "Responsive Design",
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+    iconName: "DevOpsIcon",
+    header: "DevOps",
+    content: "AWS, Bash, Docker, Firebase, Heroku, Jest, Netlify, OpenAPI/Swagger"
   },
   {
-    iconName: "LockIcon",
-    header: "Web Security",
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+    iconName: "BackEndIcon",
+    header: "Back-end",
+    content: "API, C#, Express.js, Node.js, NestJS, TypeORM, TypeScript"
+  },
+  {
+    iconName: "DatabaseIcon",
+    header: "Database",
+    content: "MongoDB, PostgreSQL, SQL"
+  },
+  {
+    iconName: "UIIcon",
+    header: "UX/UI",
+    content: "Figma"
+  },
+  {
+    iconName: "LangIcon",
+    header: "Languages",
+    content: "English, Vietnamese, Finnish, and Chinese"
   }
 ]
 ---
