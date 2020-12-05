@@ -1,12 +1,7 @@
 ---
-copyright: "Copyright © Start Bootstrap 2020"
+copyright: "Copyright Tram Nguyen"
 social: {
-  twitter: "#",
-  facebook: "#",
-  medium: "#"
+  github: "https://github.com/AsianTram",
+  linkedin: "https://www.linkedin.com/in/tram-nguyen-5a6aab133/"
 }
-privacyText: "Privacy Policy"
-privacyHref: "#!"
-termsText: "Terms of Use"
-termsHref: "#!"
 ---
