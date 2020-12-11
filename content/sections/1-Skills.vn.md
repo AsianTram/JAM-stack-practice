@@ -1,7 +1,7 @@
 ---
-anchor: "Skills"
-header: "Skills"
-subheader: "The collection of my skills"
+anchor: "Kĩ năng"
+header: "Kĩ năng"
+subheader: "Bộ sưu tập kĩ năng của tôi"
 skills: [
   {
     iconName: "FrontEndIcon",
@@ -20,7 +20,7 @@ skills: [
   },
   {
     iconName: "DatabaseIcon",
-    header: "Database",
+    header: "Cơ sở dữ liệu",
     content: "MongoDB, PostgreSQL, SQL"
   },
   {
@@ -30,8 +30,8 @@ skills: [
   },
   {
     iconName: "LangIcon",
-    header: "Languages",
-    content: "English, Vietnamese, Finnish, and Chinese"
+    header: "Ngôn ngữ",
+    content: "Tiếng Việt, Tiếng Anh, Tiếng Phần Lan, Tiếng Trung Quốc"
   }
 ]
 ---
