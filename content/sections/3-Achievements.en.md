@@ -4,7 +4,7 @@ header: "Achievements"
 subheader: "My certificates and achievements"
 timeline: [
   {
-    imageFileName: "achievements/Labpro.png",
+    imageFileName: "achievements/labopen.png",
     header: "May 2020",
     subheader: "LAB Pro Article: Applying VPL for SQL in Moodle Platform",
     content: "This article is based on my thesis research in cooperation with my thesis supervisor- Aki Vainio."
@@ -22,7 +22,7 @@ timeline: [
     content: "Certification from the course 'MERN Stack Front To Back: Full Stack React, Redux & Node.js' by Brad Traversy, Udemy."
   },
   {
-    imageFileName: "achievements/r-basics.pdf",
+    imageFileName: "achievements/datacamp.png",
     header: "December 2019",
     subheader: "Certification: Data Science R basics",
     content: " Certification from the course 'Data Science R basics' by Datacamp"
@@ -34,7 +34,7 @@ timeline: [
     content: "Participated Junction 2019 - the biggest hackathon in Finland. Challenge: Bring mispurchase to an end by Columbia Road "
   },
   {
-    imageFileName: "achievements/slush-volunteer-certificate-2019.pdf",
+    imageFileName: "achievements/slush.jpeg",
     header: "November 2019",
     subheader: "Slush Volunteer",
     content: "Joined the Sustainability Volunteer team at Slush - the World leading startup event."

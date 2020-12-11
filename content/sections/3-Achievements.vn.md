@@ -4,7 +4,7 @@ header: "Thành tựu"
 subheader: "Chứng chỉ và Thành tựu của tôi"
 timeline: [
   {
-    imageFileName: "achievements/Labpro.png",
+    imageFileName: "achievements/labopen.png",
     header: "Tháng 5 2020",
     subheader: "Bài báo cho LAB Pro: Applying VPL for SQL in Moodle Platform",
     content: "Bài viết này dựa trên nghiên cứu luận án của tôi với sự hợp tác của người giám sát luận án- Aki Vainio."
@@ -22,7 +22,7 @@ timeline: [
     content: "Chứng chỉ nhận được sau khoá học online 'MERN Stack Front To Back: Full Stack React, Redux & Node.js' bởi Brad Traversy, Udemy."
   },
   {
-    imageFileName: "achievements/r-basics.pdf",
+    imageFileName: "achievements/datacamp.png",
     header: "December 2019",
     subheader: "Chứng chỉ: Data Science R basics",
     content: " Chứng chỉ từ khoá học online 'Data Science R basics' bởi Datacamp"
@@ -34,7 +34,7 @@ timeline: [
     content: "Tham dự Junction 2019 - sự kiện hackathon ở Phần Lan. Thử thách: Bring mispurchase to an end by Columbia Road."
   },
   {
-    imageFileName: "achievements/slush-volunteer-certificate-2019.pdf",
+    imageFileName: "achievements/slush.jpeg",
     header: "Tháng 11, 2019",
     subheader: "Tình nguyện ở Slush",
     content: "Đã tham gia đội Tình nguyện viên Phát triển Bền vững tại Slush - sự kiện khởi nghiệp hàng đầu Thế giới."

@@ -4,7 +4,7 @@ header: "Saavutukset"
 subheader: "Minun todistukset ja saavutukset"
 timeline: [
   {
-    imageFileName: "achievements/Labpro.png",
+    imageFileName: "achievements/labopen.png",
     header: "May 2020",
     subheader: "LAB Pro -artikkeli: Applying VPL for SQL in Moodle Platform",
     content: "Tämä artikkeli perustuu opinnäytetyöni tutkimukseen yhteistyössä opinnäytetyön ohjaajan kanssa - Aki Vainio."
@@ -22,7 +22,7 @@ timeline: [
     content: "Todistus kurssilta 'MERN Stack Front To Back: Full Stack React, Redux & Node.js' opetti Brad Traversy, Udemy."
   },
   {
-    imageFileName: "achievements/r-basics.pdf",
+    imageFileName: "achievements/datacamp.png",
     header: "December 2019",
     subheader: "Toditus: Data Science R basics",
     content: "Sertifikaatti Datacampin kurssilta 'Data Science R basics'"
@@ -34,7 +34,7 @@ timeline: [
     content: "Osallistui Junction 2019 - Suomen suurin hackathon. Haaste: Bring mispurchase to an end by Columbia Road "
   },
   {
-    imageFileName: "achievements/slush-volunteer-certificate-2019.pdf",
+    imageFileName: "achievements/slush.jpeg",
     header: "Marraskuu 2019",
     subheader: "Slush vapaaehtoinen",
     content: "Liittynyt maailman johtavan startup-tapahtuman, Slush, Sustainability Volunteer -tiimiin."
