@@ -1,5 +1,5 @@
 module.exports = {
-  title: "Gatsyby Startbootstrap Agency",
+  title: "Tram Nguyen",
   keywords: [
     "gatsby",
     "gatsbyjs",
@@ -8,7 +8,7 @@ module.exports = {
     "i18n",
     "eslint",
     "bootstrap",
-    "startbootstrap-agency",
+    "tram nguyen",
   ],
   description: "gatsby version of startbootstrap-agency with i18n support.",
   author: "thundermiracle",
@@ -16,6 +16,7 @@ module.exports = {
   defaultLang: "en",
   langTextMap: {
     en: "English",
-    ja: "日本語",
+    fi: "Suomi",
+    vn: "Tiếng Việt",
   },
 };

@@ -40,6 +40,7 @@ const ProjectItem = ({
             className="img-fluid"
             fileName={imageFileName}
             alt={imageAlt || header || subheader}
+
           />
           <div className="project-hover">
             <div className="project-hover-content">

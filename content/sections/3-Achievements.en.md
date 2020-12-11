@@ -1,34 +1,52 @@
 ---
 anchor: "Achievements"
 header: "Achievements"
-subheader: "Lorem ipsum dolor sit amet consectetur."
+subheader: "My certificates and achievements"
 timeline: [
   {
-    imageFileName: "about/1.jpg",
-    header: "2009-2011",
-    subheader: "Our Humble Beginnings",
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+    imageFileName: "achievements/Labpro.png",
+    header: "May 2020",
+    subheader: "LAB Pro Article: Applying VPL for SQL in Moodle Platform",
+    content: "This article is based on my thesis research in cooperation with my thesis supervisor- Aki Vainio."
+  },
+   {
+    imageFileName: "achievements/Thesis.png",
+    header: "2020",
+    subheader: "Thesis: Improving an Online Course for SQL Learners in LAB University of Applied Sciences: Making use of MOOC for efficient course",
+    content: "Available at: http://urn.fi/URN:NBN:fi:amk-2020052814750"
   },
   {
-    imageFileName: "about/2.jpg",
-    header: "March 2011",
-    subheader: "An Agency is Born",
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+    imageFileName: "achievements/mern-udemy.jpg",
+    header: " September 2019",
+    subheader: "Certification: MERN Stack Front To Back",
+    content: "Certification from the course 'MERN Stack Front To Back: Full Stack React, Redux & Node.js' by Brad Traversy, Udemy."
   },
   {
-    imageFileName: "about/3.jpg",
-    header: "December 2012",
-    subheader: "Transition to Full Service",
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+    imageFileName: "achievements/r-basics.pdf",
+    header: "December 2019",
+    subheader: "Certification: Data Science R basics",
+    content: " Certification from the course 'Data Science R basics' by Datacamp"
   },
   {
-    imageFileName: "about/4.jpg",
-    header: "July 2014",
-    subheader: "Phase Two Expansion",
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+    imageFileName: "achievements/junction.png",
+    header: "November 2019",
+    subheader: "Junction Participation",
+    content: "Participated Junction 2019 - the biggest hackathon in Finland. Challenge: Bring mispurchase to an end by Columbia Road "
   },
   {
-    imageContent: "Be Part\r\nOf Our\r\nStory!"
+    imageFileName: "achievements/slush-volunteer-certificate-2019.pdf",
+    header: "November 2019",
+    subheader: "Slush Volunteer",
+    content: "Joined the Sustainability Volunteer team at Slush - the World leading startup event."
+  },
+  {
+    imageFileName: "achievements/lamko.jpeg",
+    header: "2017-2018",
+    subheader: "LAMKO Tutor",
+    content: "Joined the Tutor team at LAB University of Applied Sciences."
+  },
+  {
+    imageContent: "Journey\r\nContinuing!"
   }
 ]
 ---

@@ -1,6 +1,11 @@
 .project-item {
   right: 0;
   margin: 0 0 15px;
+  .img-fluid{
+    height: 150px;
+    width: auto;
+    margin: 0 auto;
+  }
   .project-link {
     position: relative;
     display: block;
@@ -39,6 +44,7 @@
   }
   .project-caption {
     max-width: 400px;
+    height: 160px;
     margin: 0 auto;
     padding: 25px;
     text-align: center;
@@ -59,5 +65,8 @@
 @media (min-width: 767px) {
   .project-item {
     margin: 0 0 30px;
+    .img-fluid{
+      height: 250px;
+    }
   }
 }
