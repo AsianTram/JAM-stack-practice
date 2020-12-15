@@ -1,16 +1,16 @@
 ---
 anchor: "Taitoja"
 header: "Taitoja"
-subheader: "Minun Taitojeni Kokoelma"
+subheader: "Kokoelma Taidoistani"
 skills: [
   {
     iconName: "FrontEndIcon",
-    header: "Etupään kehittäminen",
+    header: "Front-end kehittäminen",
     content: "Bootstrap, CSS, HTML, JavaScript, Material-UI, React.js, Redux, SASS, TypeScript, VueJS"
   },
   {
     iconName: "BackEndIcon",
-    header: "Taustakehitys",
+    header: "Back-end kehittäminen",
     content: "API, C#, Express.js, Node.js, NestJS, TypeORM, TypeScript"
   },
   {

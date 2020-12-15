@@ -1,5 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
+import { Accordion, Button } from "react-bootstrap";
+
 
 import Image from "components/Image";
 // import * as SocialIcons from "components/SocialIcons";
@@ -25,18 +27,17 @@ const CompanyItem = ({
         fileName={imageFileName}
         alt={imageAlt || header || subheader}
       />
-      <h4>{header}</h4>
-      <p className="text-muted">{subheader}</p>
-      {/* <div>
-        {twitterPart}
-        {facebookPart}
-        {linkedinPart}
-        {githubPart}
-        {mediumPart}
-      </div> */}
-      <div>
-        {description && description.length > 0 ? description.map((des) => (<p key={des}>{des}</p>)) : null}
-      </div>
+      <Accordion defaultActiveKey="0">
+        <Accordion.Toggle as={Button} variant="link" eventKey="1">
+          <h4>{header}</h4>
+          <p className="text-muted">{subheader}</p>
+        </Accordion.Toggle>
+        <Accordion.Collapse eventKey="1">
+          <ul style={{ textAlign: 'left' }}>
+            {description && description.length > 0 ? description.map((des) => (<li key={des}>{des}</li>)) : (<li>No detail provided</li>)}
+          </ul>
+        </Accordion.Collapse>
+      </Accordion>
     </div>
   );
 };

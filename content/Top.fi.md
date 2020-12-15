@@ -1,7 +1,7 @@
 ---
 header: "Hauska Tutustua!"
-subheader: "Tervetuloa Portfolioni!"
+subheader: "Tervetuloa Portfoliooni!"
 imageFileName: "header-bg.jpg"
 jumpToAnchor: "Taitoja"
-jumpToAnchorText: "Lisää munusta"
+jumpToAnchorText: "Lisää minusta"
 ---
