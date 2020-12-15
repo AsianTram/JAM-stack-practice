@@ -71,14 +71,8 @@ export const query = graphql`
           companies {
             header
             imageFileName
-            social {
-              facebook
-              github
-              linkedin
-              medium
-              twitter
-            }
             subheader
+            description
           }
           telephone
           title

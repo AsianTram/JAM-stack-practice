@@ -5,34 +5,23 @@ subheader: "My Working Experience"
 content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
 companies: [
   {
-    imageFileName: "team/1.jpg",
+    imageFileName: "companies/integrify.jpeg",
     header: "Kay Garland",
     subheader: "Lead Designer",
-    social: {
-      twitter: "#",
-      facebook: "#",
-      linkedin: "#"
-    }
+    description: ["Something"]
   },
   {
-    imageFileName: "team/2.jpg",
+    imageFileName: "companies/integrify.jpeg",
     header: "Larry Parker",
     subheader: "Lead Marketer",
-    social: {
-      twitter: "#",
-      facebook: "#",
-      medium: "#"
-    }
+    description: ["Something"]
+
   },
   {
-    imageFileName: "team/3.jpg",
+    imageFileName: "companies/integrify.jpeg",
     header: "Diana Pertersen",
     subheader: "Lead Developer",
-    social: {
-      twitter: "#",
-      facebook: "#",
-      medium: "#"
-    }
+    description: ["Something"]
   },
 ]
 ---

@@ -9,7 +9,7 @@ import "./Companies.scss";
 
 const Companies = ({ className, frontmatter }) => {
   if (!frontmatter) {
-    return null;
+    return <p>HERE</p>;
   }
 
   const {
@@ -22,6 +22,7 @@ const Companies = ({ className, frontmatter }) => {
 
   return (
     <PageSection className={className} id={anchor}>
+      <p>Another</p>
       <Row>
         <SectionHeader header={rootHeader} subheader={rootSubHeader} />
       </Row>
