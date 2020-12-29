@@ -36,6 +36,7 @@ exports.createSchemaCustomization = ({ actions }) => {
       jumpToAnchor: String
       jumpToAnchorText: String
       content: String
+      details: [String]
       social: Social
       skills: [Skill]
       companies: [Company]
@@ -56,10 +57,7 @@ exports.createSchemaCustomization = ({ actions }) => {
     }`,
     `
     type Social {
-      twitter: String
-      facebook: String
       linkedin: String
-      medium: String
       github: String
     }
     `,

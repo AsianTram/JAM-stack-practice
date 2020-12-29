@@ -8,8 +8,7 @@ companies: [
     imageFileName: "companies/integrify.jpeg",
     header: "Integrify",
     subheader: "Full-stack Developer",
-    description: ["Taking numerous responsibilities in front-end development with JavaScript and TypeScript
-and applying frameworks and other tools such as React.js and Redux among many others.", "Contributing to the back-end development of various projects with Node.js and Express.js.", "Building and managing databases with MongoDB and PostgreSQL.", "Conducting software tests with Jest.", ""Collaborating with other developers of different seniority via GitHub Actions."]
+    description: ["Taking numerous responsibilities in front-end development with JavaScript and TypeScript and applying frameworks and other tools such as React.js and Redux among many others.", "Contributing to the back-end development of various projects with Node.js and Express.js.", "Building and managing databases with MongoDB and PostgreSQL.", "Conducting software tests with Jest.", "Collaborating with other developers of different seniority via GitHub Actions."]
   },
   {
     imageFileName: "companies/lab.png",

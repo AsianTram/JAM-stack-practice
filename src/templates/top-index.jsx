@@ -34,10 +34,7 @@ export const query = graphql`
         frontmatter {
           brand
           anchor
-          clients {
-            href
-            imageFileName
-          }
+          details
           content
           copyright
           header
@@ -61,11 +58,8 @@ export const query = graphql`
             imageFileName
           }
           social {
-            facebook
             github
             linkedin
-            medium
-            twitter
           }
           subheader
           companies {
