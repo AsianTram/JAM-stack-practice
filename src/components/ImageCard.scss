@@ -1,7 +1,10 @@
 .image-card {
   height: 491px;
+  background: black;
+    overflow: hidden;
   .image {
     height: 491px;
+    opacity: 0.4;
   }
   .no-padding {
     padding: 0;

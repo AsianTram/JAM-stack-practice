@@ -6,6 +6,7 @@ import { Row, Col } from "react-bootstrap";
 import PageSection from "components/PageSection";
 import SectionHeader from "components/SectionHeader";
 import Image from "components/Image";
+import Icon from "components/Icon";
 import * as SocialIcons from "../../../components/SocialIcons";
 import './About.scss'
 
@@ -32,10 +33,10 @@ const About = ({ className, frontmatter }) => {
         <SectionHeader header={header} />
       </Row>
       <Row>
-        <Col>
+        <Col sm={7}>
           <Image className="image" fileName={imageFileName} alt='Tram Nguyen' />
         </Col>
-        <Col>
+        <Col className="float-right" sm={5}>
           {details ? details.map(detail => (
             <p key={detail}>{detail}</p>
           )) : null}
@@ -44,7 +45,14 @@ const About = ({ className, frontmatter }) => {
         </Col>
       </Row>
       <Row>
-        <p className="about-quote">{content}</p>
+        <Col>
+          <p className="about-quote-content">
+            <span><Icon iconName="QuoteLeftIcon" size="2x" className="text-warning" />   </span>
+            {content}
+            <span>   <Icon iconName="QuoteRightIcon" size="0.5x" className="text-warning" />
+            </span>
+          </p>
+        </Col>
       </Row>
     </PageSection>
   );

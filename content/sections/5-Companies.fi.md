@@ -8,7 +8,7 @@ companies: [
     imageFileName: "companies/integrify.jpeg",
     header: "Integrify",
     subheader: "Full-stack Developer",
-    description: ["Ottaa lukuisia vastuita käyttöliittymäkehityksessä JavaScriptin ja TypeScriptin avulla sekä soveltamalla kehyksiä ja muita työkaluja, kuten React.js ja Redux monien muiden joukossa.", "Osallistuminen eri projektien taustakehitykseen Node.js: n ja Express.js: n avulla.", "Tietokantojen rakentaminen ja hallinta MongoDB: n ja PostgreSQL: n avulla.", "Ohjelmistotestien suorittaminen Jestin kanssa.", "Yhteistyö muiden, eri ikäisten kehittäjien kanssa GitHub Actions -sovelluksen kautta."]
+    description: ["Otin lukuisia vastuita käyttöliittymäkehityksessä JavaScriptin ja TypeScriptin avulla sekä soveltamalla kehyksiä ja muita työkaluja, kuten React.js ja Redux monien muiden joukossa.", "Osallistuin eri projektien taustakehitykseen Node.js:n ja Express.js:n avulla.", "Rakensin ja hallitsin tietokantoja MongoDB:n ja PostgreSQL:n avulla.", "Suoritin ohjelmistotestejä Jestin avulla.", "Tein yhteistyötä muiden, eri ikäisten kehittäjien kanssa GitHub Actions -sovelluksen kautta."]
   },
   {
     imageFileName: "companies/lab.png",

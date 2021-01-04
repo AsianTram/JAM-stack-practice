@@ -5,6 +5,8 @@ import { Modal, Button } from "react-bootstrap";
 import Image from "components/Image";
 import Icon from "./Icon";
 
+import './ProjectDetailDialog.scss'
+
 const ProjectDetailDialog = ({
   onHide,
   imageFileName,
@@ -13,6 +15,8 @@ const ProjectDetailDialog = ({
   subheader,
   content,
   extraInfo,
+  github,
+  website,
   ...restProps
 }) => {
   return (
@@ -35,6 +39,8 @@ const ProjectDetailDialog = ({
         />
         <p>{content}</p>
         {extraInfo}
+        {github ? <p>Github: <a href={github} className="link">{github}</a></p> : null}
+        {website ? <p>Website: <a href={website} className="link">{website}</a></p> : null}
       </Modal.Body>
       <Modal.Footer>
         <div className="mx-auto">
@@ -56,6 +62,8 @@ ProjectDetailDialog.propTypes = {
   subheader: PropTypes.string,
   content: PropTypes.string,
   extraInfo: PropTypes.any,
+  github: PropTypes.string,
+  website: PropTypes.string,
 };
 
 ProjectDetailDialog.defaultProps = {
@@ -66,6 +74,8 @@ ProjectDetailDialog.defaultProps = {
   subheader: "",
   content: "",
   extraInfo: null,
+  github: null,
+  website: null,
 };
 
 export default ProjectDetailDialog;

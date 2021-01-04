@@ -17,6 +17,8 @@ const ProjectItem = ({
   imageFileNameDetail,
   imageAltDetail,
   extraInfo,
+  github,
+  website
 }) => {
   const [showDetail, setShowDetail] = React.useState(false);
   const handleShowDetail = React.useCallback(() => {
@@ -62,6 +64,8 @@ const ProjectItem = ({
         subheader={subheader}
         content={content}
         extraInfo={extraInfo}
+        github={github}
+        website={website}
       />
     </>
   );
@@ -76,6 +80,8 @@ ProjectItem.propTypes = {
   imageFileNameDetail: PropTypes.string,
   imageAltDetail: PropTypes.string,
   extraInfo: PropTypes.any,
+  github: PropTypes.string,
+  website: PropTypes.string,
 };
 
 ProjectItem.defaultProps = {
@@ -85,6 +91,8 @@ ProjectItem.defaultProps = {
   imageFileNameDetail: "",
   imageAltDetail: "",
   extraInfo: null,
+  github: null,
+  website: null
 };
 
 export default ProjectItem;

@@ -68,7 +68,9 @@ exports.createSchemaCustomization = ({ actions }) => {
         header: String
         subheader: String
         imageFileNameDetail: String
-        imageFileName: String
+        imageFileName: String,
+        github: String,
+        website: String
     }
     `,
     `

@@ -9,6 +9,7 @@ module.exports = {
     "eslint",
     "bootstrap",
     "tram nguyen",
+    "portfolio"
   ],
   description: "gatsby version of startbootstrap-agency with i18n support.",
   author: "thundermiracle",

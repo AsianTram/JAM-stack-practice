@@ -2,7 +2,7 @@
 anchor: "Công ty"
 header: "Công ty"
 subheader: "Kinh nghiệm làm việc của tôi"
-content: "Tôi đã trải nghiệm nhiều loại công việc khác nhau. Những trải nghiệm này cho tôi những góc nhìn khác về cuộc sống và công việc và hình thành tính cách hiện tại của tôi trở nên có trách nhiệm, kiên cường, chọn cách làm việc thông minh hơn cũng thích nghi hơn."
+content: "Tôi đã trải nghiệm nhiều loại công việc khác nhau. Những trải nghiệm này cho tôi những góc nhìn khác nhau về cuộc sống và công việc và hình thành tính cách hiện tại của tôi trở nên có trách nhiệm, kiên cường, chọn cách làm việc thông minh hơn, cũng như thích nghi hơn."
 companies: [
   {
     imageFileName: "companies/integrify.jpeg",
@@ -31,7 +31,7 @@ companies: [
   {
     imageFileName: "companies/ssm-logo.png",
     header: "Lahden Jakelut",
-    subheader: "Newspaper Deliverer",
+    subheader: "Người giao báo",
     description: ["Các nhiệm vụ chính bao gồm việc gấp báo và giao báo cho các hộ gia đình."]
   },
 ]
