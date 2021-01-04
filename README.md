@@ -1,3 +1,11 @@
+## Portfolio Links:
+
+[English Version](https://tramnguyen-portfolio.netlify.app/)
+
+[Finnish Version](https://tramnguyen-portfolio.netlify.app/fi)
+
+[Vietnamese Version](https://tramnguyen-portfolio.netlify.app/vn)
+
 ## Reference
 
 [https://gatsby-startbootstrap-agency.netlify.app](https://gatsby-startbootstrap-agency.netlify.app)
