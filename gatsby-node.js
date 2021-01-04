@@ -35,17 +35,19 @@ exports.createSchemaCustomization = ({ actions }) => {
       anchor: String
       jumpToAnchor: String
       jumpToAnchorText: String
+      content: String
+      details: [String]
       social: Social
       skills: [Skill]
       companies: [Company]
-      projects: [Project],
+      projects: [Project]
       timeline: [Timeline]
     }`,
     `type Company {
       header: String
       subheader: String
       imageFileName: String
-      social: Social
+      description: [String]
     }`,
     `type Skill {
       iconName: String
@@ -55,10 +57,7 @@ exports.createSchemaCustomization = ({ actions }) => {
     }`,
     `
     type Social {
-      twitter: String
-      facebook: String
       linkedin: String
-      medium: String
       github: String
     }
     `,
@@ -69,7 +68,9 @@ exports.createSchemaCustomization = ({ actions }) => {
         header: String
         subheader: String
         imageFileNameDetail: String
-        imageFileName: String
+        imageFileName: String,
+        github: String,
+        website: String
     }
     `,
     `

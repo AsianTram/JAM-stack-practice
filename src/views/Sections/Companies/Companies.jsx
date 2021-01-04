@@ -9,7 +9,7 @@ import "./Companies.scss";
 
 const Companies = ({ className, frontmatter }) => {
   if (!frontmatter) {
-    return null;
+    return <p>HERE</p>;
   }
 
   const {

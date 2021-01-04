@@ -22,7 +22,7 @@ const Project = ({ className, frontmatter }) => {
       </Row>
       <Row>
         {projects.map(
-          ({ content, extraInfo, header, imageFileName, imageFileNameDetail, subheader }) => (
+          ({ content, extraInfo, header, imageFileName, imageFileNameDetail, subheader, github, website }) => (
             <ProjectItem
               key={header}
               imageFileName={imageFileName}
@@ -37,6 +37,8 @@ const Project = ({ className, frontmatter }) => {
                   ))}
                 </ul>
               }
+              github={github}
+              website={website}
             />
           ),
         )}

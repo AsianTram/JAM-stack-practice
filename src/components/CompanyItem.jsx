@@ -1,8 +1,10 @@
 import React from "react";
 import PropTypes from "prop-types";
+import { Accordion, Button } from "react-bootstrap";
+
 
 import Image from "components/Image";
-import * as SocialIcons from "components/SocialIcons";
+// import * as SocialIcons from "components/SocialIcons";
 
 import "./CompanyItem.scss";
 
@@ -11,14 +13,13 @@ const CompanyItem = ({
   imageAlt,
   header,
   subheader,
-  social: { twitter, facebook, linkedin, github, medium },
+  description,
 }) => {
-  const twitterPart = twitter ? <SocialIcons.Twitter userName={twitter} /> : null;
-  const facebookPart = facebook ? <SocialIcons.Facebook userName={facebook} /> : null;
-  const linkedinPart = linkedin ? <SocialIcons.Linkedin userName={linkedin} /> : null;
-  const githubPart = github ? <SocialIcons.Github userName={github} /> : null;
-  const mediumPart = medium ? <SocialIcons.Medium userName={medium} /> : null;
-
+  // const twitterPart = twitter ? <SocialIcons.Twitter userName={twitter} /> : null;
+  // const facebookPart = facebook ? <SocialIcons.Facebook userName={facebook} /> : null;
+  // const linkedinPart = linkedin ? <SocialIcons.Linkedin userName={linkedin} /> : null;
+  // const githubPart = github ? <SocialIcons.Github userName={github} /> : null;
+  // const mediumPart = medium ? <SocialIcons.Medium userName={medium} /> : null;
   return (
     <div className="company-item">
       <Image
@@ -26,15 +27,17 @@ const CompanyItem = ({
         fileName={imageFileName}
         alt={imageAlt || header || subheader}
       />
-      <h4>{header}</h4>
-      <p className="text-muted">{subheader}</p>
-      <div>
-        {twitterPart}
-        {facebookPart}
-        {linkedinPart}
-        {githubPart}
-        {mediumPart}
-      </div>
+      <Accordion defaultActiveKey="0">
+        <Accordion.Toggle as={Button} variant="link" eventKey="1">
+          <h4>{header}</h4>
+          <p className="text-muted">{subheader}</p>
+        </Accordion.Toggle>
+        <Accordion.Collapse eventKey="1">
+          <ul style={{ textAlign: 'left' }}>
+            {description && description.length > 0 ? description.map((des) => (<li key={des}>{des}</li>)) : (<li>No detail provided</li>)}
+          </ul>
+        </Accordion.Collapse>
+      </Accordion>
     </div>
   );
 };
@@ -44,26 +47,14 @@ CompanyItem.propTypes = {
   imageAlt: PropTypes.string,
   header: PropTypes.string,
   subheader: PropTypes.string,
-  social: PropTypes.shape({
-    twitter: PropTypes.string,
-    facebook: PropTypes.string,
-    linkedin: PropTypes.string,
-    github: PropTypes.string,
-    medium: PropTypes.string,
-  }),
+  description: PropTypes.array,
 };
 
 CompanyItem.defaultProps = {
   imageAlt: null,
   header: "",
   subheader: "",
-  social: {
-    twitter: null,
-    facebook: null,
-    linkedin: null,
-    github: null,
-    medium: null,
-  },
+  description: null
 };
 
 export default CompanyItem;
